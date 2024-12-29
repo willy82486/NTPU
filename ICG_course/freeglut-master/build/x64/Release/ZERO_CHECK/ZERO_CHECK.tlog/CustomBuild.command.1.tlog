@@ -1,0 +1,10 @@
+^C:\USERS\ESALAB\DESKTOP\邱信瑋計算機圖學\FREEGLUT-MASTER\BUILD\CMAKEFILES\3F81709F45F3625FB1136B42C3E5A841\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ESALAB/Desktop/邱信瑋計算機圖學/freeglut-master -BC:/Users/ESALAB/Desktop/邱信瑋計算機圖學/freeglut-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/freeglut-master/build/freeglut.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

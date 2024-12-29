@@ -1,0 +1,5 @@
+﻿  Building Custom Rule C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/build/cmake/CMakeLists.txt
+  glew.c
+     正在建立程式庫 C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/lib/Release/glew32.lib 和物件 C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/lib/Release/glew32.exp
+LINK : warning LNK4281: x64 映像不具預期的基底位址 0x62AA0000。請將基底位址設定在 4GB 以上，以最佳化 ASLR
+  glew.vcxproj -> C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\bin\Release\glew32.dll

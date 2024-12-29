@@ -1,0 +1,4 @@
+13_Interview_Interview_2_People_Visible_13_245
+2
+467 69 150 232 0.87471
+234 126 163 179 0.86360

@@ -1,0 +1,39 @@
+﻿  ICG2022_HW3.cpp
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\Library\OpenCV\include\opencv2\calib3d.hpp(1,1): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\ICG2022_HW3\ICG2022_HW3.cpp(204,75): warning C4244: '引數': 將 'double' 轉換為 'GLint'，由於類型不同，可能導致資料遺失
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\ICG2022_HW3\ICG2022_HW3.cpp(445,12): warning C4101: 'hf': 未參考的區域變數
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\ICG2022_HW3\ICG2022_HW3.cpp(478,12): warning C4101: 'hf': 未參考的區域變數
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: '引數': 將 'wchar_t' 轉換為 'const _Elem'，由於類型不同，可能導致資料遺失
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 請參考正在進行編譯的函式 樣板 具現化 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : 請參考正在進行編譯的函式 樣板 具現化 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)'
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\ICG2022_HW3\ICG2022_HW3.cpp(468): message : 請參考正在進行編譯的函式 樣板 具現化 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\ICG2022_HW3\ICG2022_HW3.cpp(468): message : 請參考正在進行編譯的函式 樣板 具現化 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)'
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  正在產生程式碼
+  Previous IPDB and IOBJ mismatch, fall back to full compilation.
+  All 1099 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  ICG2022_HW3.vcxproj -> C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022_HW3\x64\Release\ICG2022_HW3.exe

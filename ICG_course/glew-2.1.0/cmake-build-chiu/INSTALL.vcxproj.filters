@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\CMakeFiles\4ef568063c9e3313cb498bad01bece26\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{ACB96B36-B141-3EBD-9821-805B8A1EE575}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

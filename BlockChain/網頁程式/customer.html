@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <!--螢幕解析度-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.googleapis.com">     
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>customer web</title>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+        <div class="v-line"></div>
+        <p class="font_Sans" id="account">帳號 : </p>
+        <table width="150" id="name">
+            <tr><td style="font-size: 18px;" class="font_roboto">wen</td></tr>
+        </table>
+        <br/>
+
+        <p class="font_Sans" id="account" style="margin-top: 60px;">目前身份 : </p>
+        <table width="150" id="now_identity">
+            <tr><td style="font-size: 18px;" class="font_roboto">customer</td></tr>
+        </table>
+        <br/>
+
+        <p class="font_Sans" id="account" style="margin-top: 120px;">申請身份 : </p>
+        <select width="150" id="require_name" style="margin-top: 155px;">
+            <option>請選擇要申請的身分</option>
+            <option>supply</option>
+            <option>process</option>
+            <option>agent</option>
+        </select>
+        <p class="font_Sans" id="account" style="margin-top: 190px;">輸入公司名稱 : </p>
+        <input width="10px" class="font_Sans" id="input_name" style="margin-top: 225px;" />
+        <p class="font_Sans" id="account" style="margin-top: 260px;">輸入公司地址 : </p>
+        <input class="font_Sans" id="input_addr" style="margin-top: 295px;" width="50px" />
+        <button id="add_btn" style="position: fixed; margin-top: 330px; margin-left: 60px;">申請</button>
+
+        <!--box 顯示產品-->
+        <div style="position:relative; margin-left: 68px; margin-top: -40px; margin-left: 200px;">
+            <table id="main" class="font_Sans" style=" text-align:center; vertical-align: middle!important; border-collapse:separate; border-spacing:10px 10px;">
+                
+                <!--<tr style="margin-left: 64px; text-align:center;  overflow: scroll;" id="row1">
+                    <td class="box" >
+                        <table width="148px" height="100px" style="text-align:center;  vertical-align: middle!important;">
+                            <tr height="70px" style="text-align:center;">
+                                <td class="font_roboto" style="text-align:center;" colspan="2">第一個商品</td>
+                            </tr>
+                            <tr>
+                                <td width="74px">
+                                    <button class="resume_btn produce_btn" type="button" data-bs-toggle="modal" data-bs-target="#resume1">履歷</button>
+                                    <div class="modal fade" id="resume1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5>履歷</h5>
+                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="form-group" id="resume_content1">
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </td>
+                                <td>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#buy1" class="buy_btn" >購買</button>
+                                    <div class="modal fade" id="buy1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    價格:100
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">購買</button>
+                                                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">取消</button>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                -->
+            </table>
+        </div>
+        <script src="customer_script.js"></script>
+    </body>
+</html>

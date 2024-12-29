@@ -1,0 +1,4 @@
+26_Soldier_Drilling_Soldiers_Drilling_26_390
+2
+488 181 46 45 0.58306
+399 416 73 64 0.34817

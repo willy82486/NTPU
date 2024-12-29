@@ -1,0 +1,128 @@
+.v-line{
+    border-left: solid rgb(93, 91, 91);
+    /*height:5000px;*/
+    position: fixed;
+    top:0;
+    bottom:0px;
+    left: 190px;
+    
+    width:10px
+}
+
+.font_Sans{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.font_roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#account{
+    margin-top:5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    left: 0%;
+    position: fixed;
+}
+
+
+#input_addr{
+    margin-top:5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    left: 0%;
+    position: fixed;
+}
+
+#input_name{
+    margin-top:5px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    left: 0%;
+    position: fixed;
+}
+
+#name{
+    border:2px #2d2c2c solid;
+    margin-top: 40px;
+    margin-left: 5px;
+    text-align:center;
+    left: 0%;
+    position: fixed;
+}
+
+#require_name{
+    border:2px #2d2c2c solid;
+    margin-top: 145px;
+    margin-left: 5px;
+    height: 33px;
+    text-align:center;
+    left: 0%;
+    position: fixed;
+}
+
+#now_identity{
+    border:2px #2d2c2c solid;
+    margin-top: 90px;
+    margin-left: 5px;
+    height: 33px;
+    text-align:center;
+    left: 0%;
+    position: fixed;
+}
+
+#remain{
+    border:2px #2d2c2c solid;
+    margin-top: 150px;
+    margin-left: 5px;
+    height: 33px;
+    text-align:center;
+    left: 0%;
+    position: fixed;
+}
+
+.box{
+    border: solid rgb(93, 91, 91);
+    height:100px;
+    width:148px;
+    font-size: 18px;
+    vertical-align:middle;
+}
+
+.btn-info{
+    background-color: #05516071;
+    border-color: #05516070;
+}
+
+.btn-info:hover{
+    background-color: #5ba4b171;
+    border-color: #5ba4b171;
+}
+
+.btn-info:active{
+    background-color: #5ba4b171;
+    border-color: #08111371;
+}
+
+.produce_btn{
+    margin-bottom: 5px;
+    text-align:center;
+    background-color: #5ba4b171;
+    border-color: #05516070;
+    border-radius: 0.25rem;
+    border: solid #41636971;
+    color: rgb(40, 39, 39);
+}
+
+.buy_btn{
+    margin-bottom: 5px;
+    text-align:center;
+    background-color: #d13d1471;
+    border-color: #b75d1c70;
+    border-radius: 0.25rem;
+    border: solid #41636971;
+    color: rgb(40, 39, 39);
+}

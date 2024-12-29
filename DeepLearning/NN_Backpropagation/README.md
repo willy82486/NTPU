@@ -1,0 +1,5 @@
+# NN_Backpropagation
+2022_NTPU_AI_DeepLearningClass_Assignment
+
+Neural Network
+Back-propagation

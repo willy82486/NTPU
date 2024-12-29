@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_callbacks.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_cursor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_ext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_font_data.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_gamemode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_geometry.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_gl2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_input_devices.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_misc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_overlay.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_spaceball.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_state.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_stroke_mono_roman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_stroke_roman.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_structure.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_teapot.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_videoresize.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_font.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_menu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_cursor_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_display_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_ext_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_gamemode_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_init_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_input_devices_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_joystick_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_main_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_menu_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_spaceball_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_state_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_structure_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_window_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_cmap_mswin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\util\xparsegeometry_repl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\include\GL\freeglut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\include\GL\freeglut_ucall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\include\GL\freeglut_ext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\include\GL\freeglut_std.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_gl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_init.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_callback_macros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\fg_teapot_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\mswin\fg_internal_mswin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\src\util\xparsegeometry_repl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\build\freeglut.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{1F9ECEAD-2920-3EB9-9AE5-11B3E67AB73C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1C50C683-A505-341A-9F17-CF3401346BDC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

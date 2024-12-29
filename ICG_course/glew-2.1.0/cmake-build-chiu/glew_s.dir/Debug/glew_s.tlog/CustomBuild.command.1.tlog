@@ -1,0 +1,10 @@
+^C:\USERS\ESALAB\DESKTOP\邱信瑋計算機圖學\GLEW-2.1.0\BUILD\CMAKE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/build/cmake -BC:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu --check-stamp-file C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

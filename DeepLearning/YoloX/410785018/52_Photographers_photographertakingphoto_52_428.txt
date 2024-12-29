@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_428
+2
+501 309 125 117 0.75121
+652 272 60 106 0.26584

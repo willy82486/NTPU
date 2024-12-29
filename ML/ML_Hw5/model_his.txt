@@ -1,0 +1,32 @@
+---------------------stride = 150---------------------
+1. 0.962 0.956
+get_linear_schedule_with_warmup
+num_training_steps = 1000
+2. 0.952 0.942
+get_linear_schedule_with_warmup
+num_training_steps = total_steps
+3. 0.944 0.95
+get_cosine_schedule_with_warmup
+num_training_steps = 1000
+4. 0.94 0.952
+get_cosine_schedule_with_warmup
+num_training_steps = total_steps
+5. 0.968 0.974
+get_cosine_schedule_with_warmup
+num_training_steps = 500
+6.  0.964 0.976
+get_linear_schedule_with_warmup
+num_training_steps = 500
+
+---------------------stride = 32---------------------
+1.  
+get_linear_schedule_with_warmup
+num_training_steps = 500
+
+---------------------lrn rate =5e-5---------------------
+1.  0.97 0.974
+get_linear_schedule_with_warmup
+num_training_steps = 500
+2.  0.97 0.976
+get_cosine_schedule_with_warmup
+num_training_steps = 500

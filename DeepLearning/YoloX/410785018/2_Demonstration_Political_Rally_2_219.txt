@@ -1,0 +1,3 @@
+2_Demonstration_Political_Rally_2_219
+1
+324 169 370 553 0.89404

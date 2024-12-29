@@ -1,0 +1,74 @@
+------------------128------------------------
+1.0.96194 0.95869
+encoder
+nn.BatchNorm2d(48),
+nn.Tanh(),
+nn.BatchNorm2d(48),   
+
+decoder
+nn.BatchNorm2d(3),
+nn.Tanh(),
+nn.BatchNorm2d(3),
+
+2.0.95721 0.95367
+decoder
+nn.Tanh(),
+nn.BatchNorm2d(3),
+
+3.0.96695 0.96415
+decoder
+nn.BatchNorm2d(3),
+nn.Tanh(),
+nn.BatchNorm2d(3),
+
+
+4.0.96036 0.95716
+encoder
+nn.BatchNorm2d(48),
+nn.ReLU(),
+nn.BatchNorm2d(48),
+
+decoder
+nn.BatchNorm2d(3),
+nn.Tanh(),
+nn.BatchNorm2d(3),
+
+5.0.47482 0.47768
+Resnet
+
+6.0.97412 0.97358
+decoder
+nn.BatchNorm2d(3),
+nn.ReLU(),
+nn.BatchNorm2d(3),
+
+7.0.98175 0.98193   last = 0.9843 0.9843
+encoder
+nn.BatchNorm2d(48),
+nn.ReLU(),
+nn.BatchNorm2d(48),
+
+decoder
+nn.BatchNorm2d(3),
+nn.ReLU(),
+nn.BatchNorm2d(3),
+
+------------------64------------------------
+1.0.95017 0.94698
+encoder
+nn.BatchNorm2d(48),
+nn.Tanh(),
+nn.BatchNorm2d(48),  
+
+decoder
+nn.BatchNorm2d(3),
+nn.Tanh(),
+nn.BatchNorm2d(3), 
+
+------------------512------------------------
+3. 0.9521 0.94781
+decoder
+nn.BatchNorm2d(3),
+nn.Tanh(),
+nn.BatchNorm2d(3),
+

@@ -1,0 +1,3 @@
+﻿  8_puzzle.cpp
+C:\Users\foo\Desktop\410785018_8puzzle\8_puzzle\8_puzzle.cpp(336,25): warning C4018: '<': signed/unsigned 不相符
+  8_puzzle.vcxproj -> C:\Users\foo\Desktop\410785018_8puzzle\Debug\8_puzzle.exe

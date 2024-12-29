@@ -1,0 +1,8 @@
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/glew.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/glew_s.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/glewinfo.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/visualinfo.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/uninstall.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/INSTALL.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/ALL_BUILD.dir
+C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/cmake-build-chiu/CMakeFiles/ZERO_CHECK.dir

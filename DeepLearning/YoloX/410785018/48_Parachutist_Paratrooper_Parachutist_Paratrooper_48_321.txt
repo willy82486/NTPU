@@ -1,0 +1,6 @@
+48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_321
+4
+122 21 41 51 0.86765
+350 24 30 56 0.83320
+896 25 34 52 0.83177
+614 33 35 41 0.34467

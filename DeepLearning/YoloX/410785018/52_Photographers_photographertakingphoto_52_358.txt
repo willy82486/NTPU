@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_358
+2
+395 188 125 155 0.70893
+584 263 40 49 0.35971

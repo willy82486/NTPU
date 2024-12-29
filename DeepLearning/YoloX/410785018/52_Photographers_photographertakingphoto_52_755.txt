@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_755
+2
+462 244 113 97 0.73551
+723 437 107 83 0.26782

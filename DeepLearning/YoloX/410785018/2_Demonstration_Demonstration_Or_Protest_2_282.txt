@@ -1,0 +1,4 @@
+2_Demonstration_Demonstration_Or_Protest_2_282
+2
+12 265 158 213 0.89228
+305 211 188 223 0.81001

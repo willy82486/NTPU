@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/freeglut-master/CMakeLists.txt
+  resizer.c
+C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\progs\demos\resizer\resizer.c(159,40): warning C4113: 'void (__cdecl *)()' 與來自 'void (__cdecl *)(void)' 的參數清單不同
+  resizer.vcxproj -> C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\freeglut-master\build\bin\Debug\resizerd.exe

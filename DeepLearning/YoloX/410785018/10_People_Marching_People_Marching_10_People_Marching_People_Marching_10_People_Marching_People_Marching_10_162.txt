@@ -1,0 +1,8 @@
+10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_People_Marching_People_Marching_10_162
+6
+389 308 24 28 0.79534
+778 91 17 19 0.48568
+331 272 26 26 0.39084
+574 134 20 28 0.33792
+665 279 30 39 0.30841
+141 272 22 27 0.27451

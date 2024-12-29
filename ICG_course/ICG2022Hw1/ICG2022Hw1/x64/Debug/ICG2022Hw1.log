@@ -1,0 +1,3 @@
+﻿  trianglemesh.cpp
+C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022Hw1\ICG2022Hw1\trianglemesh.cpp(46,71): warning C4267: '引數': 將 'size_t' 轉換為 'GLsizei'，資料可能遺失
+  ICG2022Hw1.vcxproj -> C:\Users\ESALAB\Desktop\ICG_CHIU\ICG2022Hw1\x64\Debug\ICG2022Hw1.exe

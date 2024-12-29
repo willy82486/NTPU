@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1591209228 source:c:\users\foo\desktop\410785018card7\card.cpp
+	"Card.h"
+
+1591208985 c:\users\foo\desktop\410785018card7\card.h
+	<iostream>
+	<iomanip>
+	<string>
+	<string.h>
+	<ctime>
+	<cmath>
+	<cstring>
+	<windows.h>
+	<algorithm>
+	<vector>
+	<map>
+	<fstream>
+	<sstream>
+
+1591207932 source:c:\users\foo\desktop\410785018card7\main.cpp
+	"Card.h"
+

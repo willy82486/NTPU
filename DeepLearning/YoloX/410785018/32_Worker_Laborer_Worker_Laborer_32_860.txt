@@ -1,0 +1,3 @@
+32_Worker_Laborer_Worker_Laborer_32_860
+1
+323 360 472 544 0.83332

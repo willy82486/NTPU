@@ -1,0 +1,20 @@
+將資料先做處理
+python cocosplit.py --annotations ./train.json --train ./train_ann.json --test ./test_ann.json -s 0.8 --having-annotations --multi-class 
+ 
+
+pip install -r requirements.txt
+剩餘未安裝的module部分全部 pip
+
+###訓練
+tools/train.py(12)
+
+python tools/train.py -f exps/example/custom/yolox_s.py -d 0 -b 4 --fp16 -c yolox_s.pth
+
+tools/demo.py(13、186)
+
+###測試
+python tools/demo.py image -f exps/example/custom/yolox_s.py -c C:\Users\ESALAB\YOLOX\best_ckpt.pth --path C:\Users\ESALAB\yolov7\data\NtpuCoCoDataset\Testing_Data --conf 0.25 --nms 0.45 --tsize 640 --save_result --device gpu
+
+
+
+!!!!!!!!!!!!!!!!!!!GPU記憶體不足時將data_num_workers或batch size降低

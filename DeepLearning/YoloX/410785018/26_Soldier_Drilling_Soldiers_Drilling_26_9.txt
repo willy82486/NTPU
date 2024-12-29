@@ -1,0 +1,4 @@
+26_Soldier_Drilling_Soldiers_Drilling_26_9
+2
+619 211 26 31 0.80399
+503 221 32 39 0.78246

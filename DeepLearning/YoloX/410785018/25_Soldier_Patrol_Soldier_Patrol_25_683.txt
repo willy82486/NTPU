@@ -1,0 +1,3 @@
+25_Soldier_Patrol_Soldier_Patrol_25_683
+1
+684 405 211 220 0.86803

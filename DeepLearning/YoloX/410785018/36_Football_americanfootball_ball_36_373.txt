@@ -1,0 +1,4 @@
+36_Football_americanfootball_ball_36_373
+2
+630 68 82 90 0.79036
+406 113 57 73 0.72261

@@ -1,0 +1,13 @@
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.csproj.AssemblyReference.cache
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.AssemblyInfoInputs.cache
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.AssemblyInfo.cs
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.csproj.CoreCompileInputs.cache
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\bin\Debug\netcoreapp3.1\CHATROOMserver.exe
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\bin\Debug\netcoreapp3.1\CHATROOMserver.deps.json
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\bin\Debug\netcoreapp3.1\CHATROOMserver.runtimeconfig.json
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\bin\Debug\netcoreapp3.1\CHATROOMserver.runtimeconfig.dev.json
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\bin\Debug\netcoreapp3.1\CHATROOMserver.dll
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\bin\Debug\netcoreapp3.1\CHATROOMserver.pdb
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.dll
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.pdb
+C:\Users\foo\Desktop\CHATROOMserver\CHATROOMserver\obj\Debug\netcoreapp3.1\CHATROOMserver.genruntimeconfig.cache

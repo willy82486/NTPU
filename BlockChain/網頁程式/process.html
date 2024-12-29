@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"><link rel="preconnect" href="https://fonts.googleapis.com">     
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" />
+        <title>process web</title>
+    </head>
+    <body>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+        <div class="v-line"></div>
+        <p class="font_Sans" id="account">帳號 : </p>
+        <table width="150" id="name">
+            <tr><td style="font-size: 18px;" class="font_roboto">bbp</td></tr>
+        </table>
+        <br/>
+
+        <p class="font_Sans" id="account" style="margin-top: 60px;">目前身份 : </p>
+        <table width="150" id="now_identity">
+            <tr><td style="font-size: 18px;" class="font_roboto">hi</td></tr>
+        </table>
+        <br/>
+
+        <!--box 顯示產品-->
+        <div style="position:relative; margin-left: 68px; margin-top: -40px; margin-left: 200px;">
+            <table id="main" class="font_Sans" style=" text-align:center; vertical-align: middle!important; border-collapse:separate; border-spacing:10px 10px;">
+                <!--<tr style="margin-left: 64px; text-align:center;  overflow: scroll;">
+                    <td class="box" >
+                        <table width="148px" height="100px" style="text-align:center;  vertical-align: middle!important;">
+                            <tr height="70px"><td class="font_roboto">第一個商品</td></tr>
+                            <tr>
+                                <td>
+                                    <button type="button" data-bs-toggle="modal" data-bs-target="#process1" class="produce_btn" >加工</button>
+                                    <div class="modal fade" id="process1">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4>填寫加工資訊</h4>
+                                                    <button type="button" class="close" data-bs-dismiss="modal" aria-hidden="true">&times;</button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <form>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control ingredient" style="margin-top:13px" placeholder="輸入產品名稱"/>
+                                                            <input type="text" class="form-control ingredient" style="margin-top:13px" placeholder="輸入加工方法"/>
+                                                            <input type="text" class="form-control ingredient" style="margin-top:13px" placeholder="輸入有效期限"/>
+                                                            <p class="form-control" style="margin-top:13px; text-align: left;">加工地址 : </p>
+                                                            <p class="form-control" style="text-align: left;">加工廠名稱 : </p>
+                                                            <p class="form-control" style="text-align: left;">製造成分 : </p>
+                                                            <p class="form-control" style="text-align: left;">製造日期 : </p>
+                                                            <p class="form-control" style="text-align: left;">製造商地址 : </p>
+                                                            <p class="form-control" style="text-align: left;">製造商名字 : </p>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">加工</button>
+                                                    <button type="button" class="btn btn-info" data-bs-dismiss="modal">取消</button>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>-->
+            </table>
+        </div>
+        <script src="process_script.js"></script>
+    </body>
+</html>

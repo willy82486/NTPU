@@ -1,0 +1,41 @@
+1.首先，創建一個環境給yolov7 => conda create -n yolov7 python=3.10
+2.下載相對應pytorch和cuda版本(也要考慮python版本是否支援)(這裡我下載torch11 搭配 cuda 11.3)
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
+3.從github下載yolov7
+4.打開yolov7中的requirments.txt把torch和torchvision註解掉
+5.打開yolov7環境的終端機:進入yolov7資料夾(cd yolov7)後，
+pip install -r requirements.txt
+
+可以透過print(torch.__version__)檢查pytorch是否有被啟用(大概會顯示X.XX.X+cuXXX)
+到這邊整個環境就建立好了
+
+
+###自行訓練模型步驟(處理label是COCOforamt的問題)
+圖片的label從.json轉.txt 透過執行COCOtoYOLO.py完成，並將轉換完的.txt和image放到同一個資料夾裡
+再透過SplitTrainVal.py將資料分為train和val兩個資料夾
+
+修改cfg/training/yolov7.yaml (修改nc)
+修改data/coco.yaml或者ntpu.yaml(修改路徑、nc、names)，若使用ntpu.yaml記得訓練時，cmd需要從coco.yaml改為ntpu.yaml
+
+###訓練(上面跑v7中間跑v7x下面跑v7-e6e)
+python train.py --workers 4 --device 0 --batch-size 4 --data data/ntpu.yaml --img 640 640 --cfg cfg/training/yolov7.yaml --weights yolov7_training.pt --name yolov7-custom --hyp data/hyp.scratch.custom.yaml --epochs 50
+python train.py --workers 4 --device 0 --batch-size 4 --data data/ntpu.yaml --img 640 640 --cfg cfg/training/yolov7x.yaml --weights yolov7x_training.pt --name yolov7x-custom --hyp data/hyp.scratch.custom.yaml --epochs 50
+python train_aux.py --workers 4 --device 0 --batch-size 4 --data data/ntpu.yaml --img 640 640 --cfg cfg/training/yolov7-e6e.yaml --weights yolov7-e6e_training.pt --name yolov7-e6e-custom --hyp data/hyp.scratch.custom.yaml --epochs 50
+###接續訓練範例
+python train.py --workers 4 --device 0 --batch-size 4 --data data/ntpu.yaml --img 640 640 --cfg cfg/training/yolov7x.yaml --weights C:\Users\ESALAB\yolov7\runs\train\yolov7x-custom\weights\last.pt --name yolov7x-custom --hyp data/hyp.scratch.custom.yaml --epochs 10
+###可以不用
+tensorboard --logdir=C:\Users\ESALAB\yolov7\runs\train\yolov7-custom
+port=6006
+
+修改detect.py (16、26、109、123、177) 和 general.py(264)來調整輸出的.txt檔
+
+###測試
+python detect.py --weights C:\Users\ESALAB\yolov7\runs\train\yolov7-custom\weights\best.pt --source C:\Users\ESALAB\yolov7\data\NtpuCoCoDataset\test --device 0 --save-txt --save-conf
+python detect.py --weights C:\Users\ESALAB\yolov7\runs\train\yolov7x-custom\weights\best.pt --source C:\Users\ESALAB\yolov7\data\NtpuCoCoDataset\test --device 0 --save-txt --save-conf
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+GPU記憶體不足時將data_num_workers或batch size降低
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\bin\Debug\glew32d.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\bin\Debug\glewinfo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\bin\Debug\visualinfo.exe</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\x64\Debug\ALL_BUILD</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles />
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

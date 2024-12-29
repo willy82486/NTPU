@@ -1,0 +1,5 @@
+48_Parachutist_Paratrooper_Parachutist_Paratrooper_48_678
+3
+335 324 46 66 0.82740
+649 307 55 68 0.79345
+239 254 88 154 0.62320

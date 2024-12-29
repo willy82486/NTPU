@@ -1,0 +1,4 @@
+52_Photographers_photographertakingphoto_52_701
+2
+290 280 99 115 0.86033
+253 146 99 141 0.80009

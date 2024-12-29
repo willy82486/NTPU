@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1586615049 source:c:\users\foo\desktop\bst\bitree.cpp
+	"BiTree.h"
+	<iostream>
+
+1586615086 c:\users\foo\desktop\bst\bitree.h
+	"Node.h"
+
+1639294443 c:\users\foo\desktop\bst\node.h
+	<iostream>
+
+1587235273 source:c:\users\foo\desktop\bst\main.cpp
+	"BiTree.h"
+
+1587307834 source:c:\users\foo\desktop\bst\node.cpp
+	"Node.h"
+

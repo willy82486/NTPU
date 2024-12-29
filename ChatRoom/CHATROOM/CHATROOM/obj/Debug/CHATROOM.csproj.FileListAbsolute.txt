@@ -1,0 +1,9 @@
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\bin\Debug\CHATROOM.exe
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\bin\Debug\CHATROOM.pdb
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.csproj.AssemblyReference.cache
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.FormChatClient.resources
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.Properties.Resources.resources
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.csproj.GenerateResource.cache
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.csproj.CoreCompileInputs.cache
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.exe
+C:\Users\foo\Desktop\CHATROOM\CHATROOM\obj\Debug\CHATROOM.pdb

@@ -1,0 +1,5 @@
+47_Matador_Bullfighter_matadorbullfighting_47_779
+3
+784 256 39 50 0.84149
+785 390 36 46 0.82482
+801 116 40 50 0.81762

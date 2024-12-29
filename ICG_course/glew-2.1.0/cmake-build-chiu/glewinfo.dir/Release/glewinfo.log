@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/ESALAB/Desktop/邱信瑋計算機圖學/glew-2.1.0/build/cmake/CMakeLists.txt
+  glewinfo.c
+C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\src\glewinfo.c(16413,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  glewinfo.vcxproj -> C:\Users\ESALAB\Desktop\邱信瑋計算機圖學\glew-2.1.0\cmake-build-chiu\bin\Release\glewinfo.exe
